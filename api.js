@@ -23,9 +23,10 @@ function searchMeals(e){
             <div class="meal">
              <img src="${meal.strMealThumb}"/>
              <div class="meal-info" data-mealID="${meal.idMeal}">
-           
+            
              </div>
             </div>
+            
             `)
             .join('')
         }
